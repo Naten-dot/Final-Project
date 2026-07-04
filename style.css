@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+      font-family: "Roboto", sans-serif;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+}
+
+.nav__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.purple {
+    color: #7342d6;
+}
+
+.logo {
+    width: 160px;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    transition: all 300ms;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav__link {
+    margin-left: 16px;
+    text-decoration: none;
+    color: #243e63;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.nav__link--primary {
+    background-color: #7342d6;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: azure;
+    transition: all 300ms ease;
+}
+
+.nav__link--primary:hover {
+    background-color: #5219c5;
+}
+
+.link__hover--effect:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    bottom: -3px;
+    right: 0;
+    transition: all 300ms ease;
+}
+
+.link__hover-effect--white:after {
+    background-color: azure;
+}
+
+.link__hover-effect--black:after {
+    background-color: #7342d6;
+}
+
+.link__hover--effect:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.header__container {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    height: 100%;
+}
