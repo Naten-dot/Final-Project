@@ -52,6 +52,10 @@ li {
     padding: 8px;
 }
 
+.nav__link:hover {
+    color: #7342d6;
+}
+
 .nav__link--primary {
     background-color: #7342d6;
     padding: 8px 20px;
@@ -79,7 +83,7 @@ li {
 }
 
 .link__hover-effect--black:after {
-    background-color: #7342d6;
+    background-color: #5219c5;
 }
 
 .link__hover--effect:hover:after {
@@ -87,9 +91,27 @@ li {
     left: 0;
 }
 
+/*
+
+Landing
+
+*/
+
 .header__container {
-    width: 100%;
-    max-width: 720px;
-    margin: 0 auto;
-    height: 100%;
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.header__description {
+    display: flex;
+    align-items: center;
+}
+
+.header__description--info {
+    width: 40%;
+}
+
+.header__description--illustration {
+    width: 60%;
 }
