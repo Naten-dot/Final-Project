@@ -11,6 +11,15 @@ nav {
     display: flex;
 }
 
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav__container {
     width: 100%;
     max-width: 1200px;
@@ -26,7 +35,7 @@ nav {
 }
 
 .logo {
-    width: 160px;
+    width: 260px;
 }
 
 a {
@@ -57,7 +66,11 @@ li {
 }
 
 .nav__link--primary {
+    margin-left: 16px;
+    text-decoration: none;
     background-color: #7342d6;
+    font-size: 20px;
+    font-weight: bold;
     padding: 8px 20px;
     border-radius: 50px;
     color: azure;
@@ -98,20 +111,81 @@ Landing
 */
 
 .header__container {
-   width: 100%;
-   max-width: 1200px;
-   margin: 0 auto;
-}
-
-.header__description {
-    display: flex;
-    align-items: center;
-}
-
-.header__description--info {
     width: 40%;
+    display: flex;
+    flex-direction: column;
 }
 
-.header__description--illustration {
-    width: 60%;
+.heading {
+    color: #1a202c;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.5;
 }
+
+.heading__para {
+    margin: 32px 0;
+    font-size: 18px;
+    text-align: left;
+    color: #243e63;
+}
+
+.header__img {
+    width: 240%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__input-wrapper{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.header__input {
+    width: 100%;
+    padding: 16px 32px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    color: rgb(226, 232, 240);
+    transition: all 300ms ease;
+    border-color: rgb(226, 232, 240);
+    transition: all 300ms ease;
+}
+
+.btn {
+    position: absolute;
+    right: 5px;
+    height: 60%;
+    top: 20%;
+    border: none;
+    background-color: #7342d6;
+    color: azure;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: all 300ms ease;
+}
+
+.header__input:hover {
+    border-color: rgb(146, 146, 146);
+}
+
+.btn:hover {
+    background-color: #5219c5;
+}
+
+.heading__bottom-para {
+    margin: 24px 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #8d9097;
+}
+
+
+
