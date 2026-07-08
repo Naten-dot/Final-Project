@@ -14,7 +14,7 @@ nav {
 .row {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .header__row {
@@ -23,7 +23,14 @@ nav {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+.quality__row {
+    padding: 96px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
 }
 
 .nav__container {
@@ -175,6 +182,7 @@ Landing
     font-size: 20px;
     font-weight: 700;
     border-radius: 50px;
+    border-color: transparent;
     transition: all 300ms ease;
 }
 
@@ -212,6 +220,7 @@ FEATURES
 .section__title {
     font-weight: 700;
     margin-bottom: 24px;
+    color: #7342d6;
 }
 
 .section__subheader {
@@ -272,5 +281,80 @@ FEATURES
     margin-bottom: 60px;
     line-height: 1.5;
 }
+
+.quality__info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 24px;
+}
+
+.quality__img {
+    width: 40%;
+    margin-bottom: 56px;
+}
+
+.quality__button {
+    width: 180px;
+    background-color: #5c1cdd;
+    color: azure;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: all 300ms ease;
+    border-color: transparent;
+}
+
+.quality__button:hover {
+    background-color: #7342d6;
+}
+
+.steps__img {
+    width: 50%;
+}
+
+.steps__info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+}
+
+.step {
+    display: flex;
+}
+
+.step__img {
+    color: #7342d6;
+    font-size: 32px;
+}
+
+.step__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.step__subtitle {
+    color: #243e63;
+    margin-bottom: 16px; 
+}
+
+.step__para{
+    font-size: 18px;
+    color: #8d9097;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+
 
 
