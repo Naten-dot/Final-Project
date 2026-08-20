@@ -26,6 +26,13 @@ h1 {
     font-size: 46px;
 }
 
+h3 {
+    margin-top: 46px;
+    margin-bottom: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
@@ -333,5 +340,144 @@ h1 {
     font-weight: 500;
 }
 
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.plan {
+    position: relative;
+    background-color: #fff;
+    width: calc(100%/3);
+    max-width: 356px;
+    margin: 32px 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.4s;
+    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px 0 var(--tw-shadow-color);
+    box-shadow:  var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.plan:hover {
+    transform: translateY(-20px);
+}
+
+.border__line, .border__line-enterprise {
+    position:absolute;
+    background: linear-gradient(115deg, rgba(56 ,178, 172) 0%, rgba(129, 230, 217) 100%);
+    color: transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    left: -.2px;
+    font-size: xx-small;
+}
+
+.frequency {
+    font-weight: 700;
+    color: #d8d8d8;
+}
+
+.plan__description, .business__description{
+    margin-top: 12px;
+    border-top: solid rgb(207, 207, 207) 1px;
+}
+
+.plan__quantity, .plan__quantity-business {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.plan__feature {
+    color: rgb(164, 159, 159);
+}
+
+.plan__btn, .plan__business-btn {
+    margin: 16px 12px;
+    padding: 24px 16px;
+    border-top: solid rgb(207, 207, 207) 1px;
+}
+
+.personal__btn, .business__btn, .enterprise__btn {
+    margin-top: 16px;
+    padding: 16px 32px;
+    width: 100%;
+    max-width: 200px;
+    background: linear-gradient(115deg, rgba(56 ,178, 172) 0%, rgba(129, 230, 217) 100%);
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+    border: none;
+    transition: all 0.4s;
+}
+
+.personal__btn:hover, .business__btn:hover, .enterprise__btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.business_plan {
+    position: relative;
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    width: calc(100%/3);
+    max-width: 356px;
+    margin: 32px 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.4s;
+    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px 0 var(--tw-shadow-color);
+    box-shadow:  var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.business_plan:hover {
+    transform: translateY(-20px);
+}
+
+.subscription__business {
+    color: #fff;
+}
+
+.business__frequency {
+    font-weight: 700;
+    color: #fff;
+}
+
+.business__description {
+    border-top: solid rgb(127, 164, 250) 1px;
+}
+
+.plan__quantity-business {
+    color: #fff;
+}
+
+.plan__feature-business {
+    color: #fff;
+}
+
+.plan__business-btn {
+    border-top: solid rgb(127, 164, 250) 1px;
+}
+
+.business__btn {
+    background: #fff;
+    color: #8604dc;
+}
+
+.border__line-enterprise {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.enterprise__btn {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
 
