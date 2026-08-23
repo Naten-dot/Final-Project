@@ -24,7 +24,7 @@ p {
 
 h1 {
     margin-bottom: 20px;
-    font-size: 46px;
+    font-size: 52px;
 }
 
 h3 {
@@ -239,7 +239,7 @@ h3 {
 }
 
 .customers__para {
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 600;
     color: #b2c3c5;
     margin-top:20px;
@@ -267,6 +267,7 @@ h3 {
 }
 
 .section__title {
+    font-size: 20px;
     font-weight: 600;
     margin-top: 60px;
 }
@@ -347,6 +348,7 @@ h3 {
 
 .steps__img {
     width: 50%;
+    margin-right: 40px;
 }
 
 .laptop__img {
@@ -409,7 +411,7 @@ h3 {
     background-color: #fff;
     width: calc(100%/3);
     max-width: 356px;
-    margin: 32px 8px;
+    margin: 32px 24px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
