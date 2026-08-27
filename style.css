@@ -46,8 +46,26 @@ h3 {
     align-items: center;
 }
 
+.header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 36px;
+}
+
 .logo {
-    width: 140px;
+    width: 40px;
+}
+
+.header__title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 16px;
+    color: #243E63;
+}
+
+.header__title:hover {
+    color: #3e0fbf;
 }
 
 .logo:hover {
@@ -630,7 +648,101 @@ h3 {
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
+/*  TESTIMONIALS */
 
+.testimonials__container {
+    width: 85%;
+    display: flex;
+    align-items: center;
+}
+
+.testimonials__img {
+    align-items: center;
+    justify-content: center;
+}
+
+.love__illustration {
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 46px;
+}
+
+.testimonials__info {
+    width: 80%;
+}
+
+.testimonials__para {
+    color: #636363;
+    line-height: 1.5;
+}
+
+.testimonials__subtitle {
+    font-size: 18px;
+    color: #243E63;
+    margin-top: 16px;
+}
+
+.subtitle__para {
+    margin-top: 16px;
+    color: #636363;
+    line-height: 1.5;
+}
+
+.charlotte__hale--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.director__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.charlotte__hale {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.name__hale {
+    font-size: 20px;
+    color: #243E63;
+}
+
+.occupation {
+    font-size: 16px;
+    color: #7C8BA1;
+}
+
+.arrows {
+    display: flex;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.arrow:hover {
+    background-color: #b0b0b0;
+    transition: all 300ms;
+}
 /*  FOOTER  */
 
 
