@@ -27,6 +27,12 @@ h1 {
     font-size: 52px;
 }
 
+h2 {
+    color: #fff;
+    font-size: 32px;
+    padding: 20px;
+}
+
 h3 {
     margin-top: 46px;
     margin-bottom: 12px;
@@ -651,25 +657,23 @@ h3 {
 /*  TESTIMONIALS */
 
 .testimonials__container {
-    width: 85%;
     display: flex;
     align-items: center;
 }
 
 .testimonials__img {
     align-items: center;
-    justify-content: center;
 }
 
 .love__illustration {
     width: 500px;
     align-items: center;
-    justify-content: center;
     margin-right: 46px;
 }
 
 .testimonials__info {
-    width: 80%;
+    width: 50%;
+    max-width: ;
 }
 
 .testimonials__para {
@@ -702,8 +706,8 @@ h3 {
 }
 
 .charlotte__hale {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 50px;
     align-items: center;
     justify-content: center;
@@ -743,6 +747,56 @@ h3 {
     background-color: #b0b0b0;
     transition: all 300ms;
 }
+
+
+/*  CONTACT US */
+
+.contact__us--info {
+    margin-top: 160px;
+    display: flex;
+    background-color: #5c26f2;
+    padding: 120px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btns {
+    display: flex;
+    width: 50%;
+}
+
+.started__btn {
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color: lightsalmon;
+    font-size: 16px;
+    margin-right: 24px;
+    transition: all 300ms;
+}
+
+.started__btn:hover {
+    background-color: darkorange;
+}
+
+.contact__us--btn {
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: solid rgb(164, 159, 159) 1px; 
+    font-size: 16px;
+    background-color: transparent;
+    color: #fff;
+    transition: all 300ms;
+}
+
+.contact__us--btn:hover {
+    background-color: #fff;
+    color: #5c26f2;
+}
+
 /*  FOOTER  */
 
 
@@ -891,5 +945,3 @@ footer {
   .highlight:not(:last-child) {
     margin-bottom: 24px;
   }
-}
-
